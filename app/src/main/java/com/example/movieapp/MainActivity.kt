@@ -22,11 +22,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         supportActionBar?.hide()
 
-        setUpRv()
-
-    }
-
-    private fun setUpRv(){
         tvShowAdapter = TvShowAdapter()
 
         binding.recyclerView.apply {
@@ -66,5 +61,6 @@ class MainActivity : AppCompatActivity() {
         })
 
     }
+
 
 }
