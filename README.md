@@ -2,11 +2,12 @@
 
 - **Android** 
    - Kotlin
+   - MVVM
    - Dagger-Hilt
    - Retrofit 2
-   - MVVM
    - LiveData
    - Kotlin Coroutines
+   - Recyclerview
 
 - Api used ( https://api.tvmaze.com/shows )
 
